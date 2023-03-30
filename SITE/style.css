@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-image: url(Fundinho.jpeg);
+}
+
+#menu-h{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: #91480c;
+}
+
+#menu-h li{  
+    display: inline-block;
+    color: beige;
+}
+
+#menu-h li a{
+    color: beige;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h li:hover{
+    background-color: rgb(92, 40, 5);
+}
+
+#menu-h ul li:last-child li{
+    float:right
+    background-color #ce6713;
+}
+
+#texto-h{
+    margin-left: 552px;
+    background-color: beige;
+    max-width: 800px;
+    font-size: large;
+}
+
+#logo{
+    max-width: 196px;
+    margin-right: 560px;
+    float: right;
+    margin-top: -1055px;       
+}
+
+footer{
+    background-color: beige;
+    max-width: 800px;
+    margin-left: 552px;
+}
+
+#texto-g{
+    max-width: 800px;
+    background-color: beige;
+    margin-left: 552px;
+}
+
+img{
+    max-width: 250px;
+}
+
+#texto-c{
+    max-width: 800px;
+    background-color: beige;
+    margin-left: 552px;
+}
